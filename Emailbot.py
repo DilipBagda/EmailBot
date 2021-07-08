@@ -59,7 +59,7 @@ def sendEmail(smtp):
     print("\n=============== Thank You For Using Program =================") 
     exit()
 
-def sendEmailBobm(smtp):
+def sendEmailManyTime(smtp):
     email = EmailMessage()
     print('================== Provide Receiver Detail ================')
     try:
@@ -89,7 +89,7 @@ if __name__ =="__main__":
     while True :
         print('''
         1) Send Email With List
-        2) Send Email Bomb Just For Fun
+        2) Send Email Many Time to One Person
         3) Exit 
         ''')
         try:
@@ -99,7 +99,7 @@ if __name__ =="__main__":
                 sendEmail(smtp)
             elif choise==2:
                 smtp=login()
-                sendEmailBobm(smtp)
+                sendEmailManyTime(smtp)
             elif choise==3:
                 print("\n =============== Thank You For Using Program =================")
                 exit()    
