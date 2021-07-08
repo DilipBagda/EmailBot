@@ -1,6 +1,8 @@
 # Email Bot
 
-Python mini project. User add all reciver Email
+Python mini project.
+
+User add all reciver Email
 in email.txt file and then can able to send email all 
 of them.
 
