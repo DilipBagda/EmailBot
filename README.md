@@ -13,6 +13,7 @@ One  email send many time to one person.
 To deploy this project run
 
 ```bash
+  cd EmailBot
   python Emailbot.py
 ```
 
