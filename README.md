@@ -15,7 +15,7 @@ To deploy this project run
 
 ```bash
   cd EmailBot
-  python Emailbot.py
+  python3 Emailbot.py
 ```
 
   
