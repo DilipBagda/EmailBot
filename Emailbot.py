@@ -1,4 +1,4 @@
-# code by Dilip bagda
+# coded by Dilip bagda
 import smtplib   
 from email.message import EmailMessage
 
